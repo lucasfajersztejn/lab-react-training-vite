@@ -7,19 +7,14 @@ function IdCard(props) {
 
   return (
     <section className='container_IdCard'>
-      <div>
-        <ImageAvatar image={picture} />
-      </div>
-
-      <div>
-        <Information 
-          firstName={firstName}
-          lastName={lastName}
-          gender={gender}
-          height={height}
-          birth={birth}
-        />
-      </div>
+      <ImageAvatar image={picture} />
+      <Information 
+        firstName={firstName}
+        lastName={lastName}
+        gender={gender}
+        height={height}
+        birth={birth}
+      />
     </section>
   );
 }

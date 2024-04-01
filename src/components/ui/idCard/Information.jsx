@@ -1,4 +1,4 @@
-
+import React from "react";
 
 const Information = ({ lastName, firstName, gender, height, birth }) => {
   const birthday = new Date(birth).toLocaleDateString('en-US', {
